@@ -1,0 +1,30 @@
+{
+    "name": "pxt-kitronik-zip-leds",
+    "version": "0.1",
+    "description": "Blocks for driving Kitronik ZIP LEDs",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*",
+        "ws2812b": "github:Microsoft/pxt-ws2812b#v0.0.4"
+    },
+    "files": [
+        "README.md",
+        "ns.ts",
+        "zipleds.ts",
+        "_locales/ja/neopixel-strings.json"
+    ],
+    "testFiles": [
+        "tests.ts"
+    ],
+    "yotta": {
+        "config": {
+            "microbit-dal": {
+                "bluetooth": {
+                    "enabled": 0
+                }
+            }
+        }
+    },
+    "public": true,
+    "installedVersion": "file:../pxt-kitronik-zip-leds"
+}
