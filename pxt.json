@@ -10,8 +10,7 @@
     "files": [
         "README.md",
         "ns.ts",
-        "zipleds.ts",
-        "_locales/ja/neopixel-strings.json"
+        "zipleds.ts"
     ],
     "testFiles": [
         "tests.ts"
